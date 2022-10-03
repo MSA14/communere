@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width |  initial-scale=1.0">
+    <title>Api</title>
+     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+    <style>
+        body{
+            background-color: #f3f5f4;
+        }
+        .green{
+            color: green;
+        }
+        .red{
+            color: red;
+        }
+        .blue{
+            color:blue;
+        }
+        .gray{
+            color:#c4c4c4
+        }
+        .footer{
+            width: 100%;
+            background-color: white;
+            padding: 10px;
+            bottom: 0;
+            position: fixed;
+            border-radius: 25px 25px 0px 0px;
+            box-shadow: 2px 2px 2px 2px lightgray;
+        }
+        .text-center{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>END-POINTS</h2>
+    <br/>
+    <table class="table p-2">
+        <thead>
+            <tr>
+                <th></th>
+                <th>URL</th>
+                <th>METHODS</th>
+                <th>PERMISSION</th>
+                <th>DETAILS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1. </td>
+                <td><a href="/auth/sign-up/">/auth/sign-up/</a></td>
+                <td><span class="green">GET</span> | <span class="red">POST</span></td>
+                <td class="text-center"> Public</td>
+                <td >( Sign Up As New User )</td>
+            </tr>
+            <tr>
+                <td>2. </td>
+                <td><a href="/auth/token/">/auth/token/</a></td>
+                <td class="red">POST</td>
+                <td class="text-center"> Public</td>
+                <td >( Login And Get Access Token And Refresh Token )</td>
+            </tr>
+            <tr>
+                <td>3. </td>
+                <td><a href="/auth/token/refresh/">/auth/token/refresh/</a></td>
+                <td class="red">POST</td>
+                <td class="text-center"> Public</td>
+                <td>( Refresh Token )</td>
+            </tr>
+            <tr>
+                <td>4. </td>
+                <td><a href="/projects/managers/">/projects/managers/</a></td>
+                <td><span class="green">GET</span> | <span class="red">POST</span> | <span class="blue">PUT</span></td>
+                <td class="text-center"> Project Managers</td>
+                <td>( Manager Retrieve and Add Projects )</td>
+            </tr>
+            <tr>
+                <td>5. </td>
+                <td><a href="/projects/managers/assign/">/projects/managers/assign/</a></td>
+                <td><span class="green">GET</span> | <span class="red">POST</span> | <span class="blue">PUT</span></td>
+                <td class="text-center"> Project Managers</td>
+                <td>( Manager Assign Project To Developers )</td>
+            </tr>
+            <tr>
+                <td>6. </td>
+                <td><a href="/tasks/managers/">/tasks/managers/</a></td>
+                <td><span class="green">GET</span> | <span class="red">POST</span> | <span class="blue">PUT</span></td>
+                <td class="text-center"> Project Managers</td>
+                <td>( Manager Retrieve and Add Tasks )</td>
+            </tr>
+            <tr>
+                <td>7. </td>
+                <td><a href="/tasks/managers/assign/">/tasks/managers/assign/</a></td>
+                <td><span class="green">GET</span> | <span class="red">POST</span> | <span class="blue">PUT</span></td>
+                <td class="text-center"> Project Managers</td>
+                <td>( Manager Assign Tasks To Developers )</td>
+            </tr>
+            <tr>
+                <td>8. </td>
+                <td><a href="/tasks/developers/">/tasks/developers/</a></td>
+                <td><span class="green">GET</span> | <span class="red">POST</span> | <span class="blue">PUT</span></td>
+                <td class="text-center">Developers</td>
+                <td>( Developers Retrieve and Add Tasks )</td>
+            </tr>
+            <tr>
+                <td>9. </td>
+                <td><a href="/tasks/developers/assign/">/tasks/developers/assign/</a></td>
+                <td><span class="green">GET</span> | <span class="red">POST</span> | <span class="blue">PUT</span></td>
+                <td class="text-center">Developers</td>
+                <td>( Developers Assign Tasks To Each Other )</td>
+            </tr>
+        </tbody>
+    </table>
+    <br/>
+    <hr/>
+    <br/>
+    <h5 class="text-center">GET Request To Each EndPoint To Get More Details</h5>
+    <div class="footer">
+        <h2 class="text-center ">DJANGO REST API</h2>
+    </div>
+</body>
+</html>

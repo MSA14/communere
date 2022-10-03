@@ -1,0 +1,6 @@
+project_permission_denied = "You Dont Have The Permission To Access This Project"
+developer_project_permission_denied = "Developer Does Not Have The Permission To Access This Project"
+developer_removed_from_project = "Developer Removed from The Project"
+developer_added_to_project = "Developer Added To The Project"
+developer_removed_from_task = "Developer Removed from The Task"
+developer_added_to_task = "Developer Added To The Task"
