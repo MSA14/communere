@@ -1,10 +1,10 @@
-Create a to-do RESTful APIs with following. 
+RESTful APIs with following. 
 
-Specifications:
-where each task can have more than one assignee, and each project has multiple tasks
-    • There are two roles: 
-        ◦ Developer
-        ◦ Project Manager
+# Specifications:
+# where each task can have more than one assignee, and each project has multiple tasks
+    ##• There are two roles: 
+        ###◦ Developer
+        ###◦ Project Manager
 
 Developers can:
     • Add task and assign it to themself
